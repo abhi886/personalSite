@@ -12,6 +12,7 @@
   --primaty-black: #000000;
   --primaty-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
+  --primary-black: #000;
 }
 body {
   font-family: "Roboto Condensed" sans-serif;
@@ -568,4 +569,27 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/* Footer components  */
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primargy-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primargy-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer .d-flex p {
+  margin-bottom: 0;
 }
