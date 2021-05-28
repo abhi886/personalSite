@@ -13,6 +13,8 @@
   --primaty-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
   --primary-black: #000;
+  --primary-dark: rgba(255, 255, 255, 0);
+
 }
 body {
   font-family: "Roboto Condensed" sans-serif;
@@ -102,7 +104,6 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-
 /* ********** Header *******************************/
 .header-wraper {
   position: relative;
@@ -596,4 +597,12 @@ textarea.form-control {
 
 .footer .d-flex p {
   margin-bottom: 0;
+=======
+/* HEADER MAIN OFFER BUTTON */
+.btn-main-offer {
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.62532rem, 0.75rem, 0.62532rem, 0.75rem;
+
 }
