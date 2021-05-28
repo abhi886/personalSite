@@ -14,7 +14,6 @@
   --primary-green: green;
   --primary-black: #000;
   --primary-dark: rgba(255, 255, 255, 0);
-
 }
 body {
   font-family: "Roboto Condensed" sans-serif;
@@ -597,12 +596,11 @@ textarea.form-control {
 
 .footer .d-flex p {
   margin-bottom: 0;
-=======
+}
 /* HEADER MAIN OFFER BUTTON */
 .btn-main-offer {
   border: 1px solid var(--primary-orange);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.62532rem, 0.75rem, 0.62532rem, 0.75rem;
-
 }
