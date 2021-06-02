@@ -16,8 +16,8 @@ const Services = () => {
                                     <div className="circle">
                                     <FontAwesomeIcon className='icon' icon={faDesktop} size="2x" />
                                     </div>
-                                    <h3>Web Design</h3>
-                                    <p> This is the web desiug</p>
+                                    <h3>Web Development</h3>
+                                    <p> Create Sites and Web Applications</p>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6">
