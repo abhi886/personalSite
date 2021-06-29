@@ -109,7 +109,7 @@ nav ul li {
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .main-info {
@@ -596,4 +596,82 @@ textarea.form-control {
 
 .footer .d-flex p {
   margin-bottom: 0;
+}
+
+/* Blog */
+.blog-heading .py-5 {
+  color: var(--primary-orange);
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blog-heading {
+  margin: -6rem auto 11rem;
+  position: relative;
+  background-color: White;
+  /* padding: 9rem 12rem; */
+  width: 1120px;
+}
+.blog {
+  background-blend-mode: darken;
+  background-color: #faf8f2;
+  /* position: relative; */
+  width: 100%;
+}
+
+.borderbox {
+  border: 1px solid #e9ecef;
+  padding: 5px;
+}
+
+.blog .img-box .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  right: 0;
+}
+
+.btm5m {
+  margin-bottom: 5px;
+}
+
+.cm10-row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.blogs-content .img-box {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.blog-heading ul {
+  overflow: hidden;
+}
+
+.blog-heading li {
+  display: inline-block;
+}
+.blogs-content {
+  border-bottom: 0.3125rem solid var(--primary-orange);
+}
+.img-box {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.img-box img:hover {
+  /* -webkit-transition: all .5s linear; */
+  transition: all 0.5s linear;
+}
+/* Custom styling */
+.m-20 {
+  margin: 20px;
 }
