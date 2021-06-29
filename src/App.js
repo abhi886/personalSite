@@ -1,50 +1,30 @@
 import "./App.css";
+import { Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Particles from "react-particles-js";
-import Blog from "./components/Blog";
-// import AboutMe from "./components/AboutMe";
+
+import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
-// import Experience from "./components/Experience";
-// import Portfolio from "./components/Portfolio";
-// import Testimonials from "./components/Testimonials";
-// import Contacts from "./components/Contacts";
+import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
+import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Particles
-        className='particles-canvas'
-        parans={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900,
-              },
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 6,
-                color: "#f9ab00",
-              },
-            },
-          },
-        }}
-      />
       <Navbar />
-      <Header />
-      <Blog />
-      {/* <AboutMe /> */}
-      <Services />
-      {/*   <Experience />
-      <Portfolio />
-      <Testimonials />
-      <Contacts /> */}
+      <Switch>
+        <Route exact path='/' component={Main} />
+        <Route path='/services' exact component={Services} />
+        <Route path='/about' exact component={AboutMe} />
+        <Route path='/experience' exact component={Experience} />
+        <Route path='/portfolio' exact component={Portfolio} />
+        <Route path='/contacts' exact component={Contacts} />
+        {/* <Route path='/movies/:id' component={MovieForm} /> */}
+      </Switch>
       <Footer />
     </>
   );
