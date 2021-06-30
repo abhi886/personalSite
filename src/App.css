@@ -195,9 +195,14 @@ nav ul li {
   text-transform: uppercase;
 }
 
-#about {
-  margin-top: 100px;
+.about {
+  position: absolute;
 }
+
+.aboutme-container {
+  padding-top: 150px;
+}
+
 @media (max-width: 468px) {
   .profile-img {
     width: 10rem;
@@ -673,6 +678,26 @@ textarea.form-control {
 .img-box img:hover {
   /* -webkit-transition: all .5s linear; */
   transition: all 0.5s linear;
+}
+.btn-blog {
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.625rem;
+  color: var(--primary-orange);
+  margin: 2rem;
+}
+
+.blog-btn-viewMore {
+  display: inline-flex;
+  float: right;
+}
+
+.btn-blog:hover {
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  transition: 0.2s ease-in-out;
+  color: var(--primary-white);
 }
 /* Custom styling */
 .m-20 {
