@@ -13,7 +13,7 @@ function Navbar() {
           <img className='logo' src={logo} alt='Abhishek' />
         </Link>
         <button
-          class='navbar-toggler'
+          className='navbar-toggler'
           type='button'
           data-toggle='collapse'
           data-target='#navbarSupportedContent'
@@ -23,7 +23,7 @@ function Navbar() {
         >
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
-        <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item active'>
               <Link to='/' className='nav-link'>
@@ -36,23 +36,28 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link smooth={true} to='/services' className='nav-link'>
+              <Link smooth='true' to='/services' className='nav-link'>
                 Services
               </Link>
             </li>
             <li className='nav-item'>
-              <Link smooth={true} to='/experience' className='nav-link'>
+              <Link smooth='true' to='/experience' className='nav-link'>
                 Working Experience
               </Link>
             </li>
             <li className='nav-item'>
-              <Link smooth={true} to='/portfolio' className='nav-link'>
+              <Link smooth='true' to='/portfolio' className='nav-link'>
                 Portfolio
               </Link>
             </li>
             <li className='nav-item'>
-              <Link smooth={true} to='/contacts' className='nav-link'>
+              <Link smooth='true' to='/contacts' className='nav-link'>
                 Contacts
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link smooth='true' to='/login' className='nav-link'>
+                Login
               </Link>
             </li>
           </ul>

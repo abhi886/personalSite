@@ -42,7 +42,7 @@ const Blog = () => {
                       <FontAwesomeIcon
                         className='icon'
                         icon={faGlasses}
-                        size=''
+                        size='sm'
                       />
                       {/* <i className='far fa-eye' aria-hidden='true'></i> */}{" "}
                       ( About 5 mins read )
@@ -63,7 +63,7 @@ const Blog = () => {
             <Link to='/q' className='btn-blog '>
               {" "}
               View All{" "}
-              <FontAwesomeIcon className='icon' icon={faArrowRight} size='' />
+              <FontAwesomeIcon className='icon' icon={faArrowRight} size='sm' />
             </Link>
           </div>
         </div>

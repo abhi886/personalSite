@@ -8,8 +8,10 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
+import LoginForm from "./components/loginForm";
+
 import Footer from "./components/Footer";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path='/experience' exact component={Experience} />
         <Route path='/portfolio' exact component={Portfolio} />
         <Route path='/contacts' exact component={Contacts} />
+        <Route path='/login' exact component={LoginForm} />
+
         {/* <Route path='/movies/:id' component={MovieForm} /> */}
       </Switch>
       <Footer />
