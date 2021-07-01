@@ -44,8 +44,8 @@ const Blog = () => {
                         icon={faGlasses}
                         size=''
                       />
-                      {/* <i className='far fa-eye' aria-hidden='true'></i> */}(
-                      About 5 mins read )
+                      {/* <i className='far fa-eye' aria-hidden='true'></i> */}{" "}
+                      ( About 5 mins read )
                     </li>{" "}
                   </ul>
 
@@ -60,7 +60,7 @@ const Blog = () => {
             </div>
           </div>
           <div className='blog-btn-viewMore'>
-            <Link to='/' className='btn-blog '>
+            <Link to='/q' className='btn-blog '>
               {" "}
               View All{" "}
               <FontAwesomeIcon className='icon' icon={faArrowRight} size='' />
