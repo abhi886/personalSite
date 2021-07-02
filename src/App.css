@@ -289,6 +289,9 @@ nav ul li {
   background: var(--primaty-grey);
   z-index: 1;
 }
+/* .timeline-content span {
+  color: var(--primary-orange);
+} */
 .timeline-block {
   width: calc(50% + 0.5rem);
   display: flex;
