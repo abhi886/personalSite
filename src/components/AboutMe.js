@@ -16,10 +16,18 @@ const AboutMe = () => {
             <p>
               Hi, I am Abhishekh Maharjan, a Software Engineer with a strong
               background that encompasses diverse aspects of Software
-              Engineering. Currently, I am living in Canberra, Autralia. I’m
+              Engineering. Currently, I am living in Canberra, Australia. I’m
               seeking to heighten my experience towards becoming a Full Stack
-              Software Engineer. My programming acumen includes knowledge in
-              React, Nodejs and JavaScript ecosystem.
+              Software Engineer. My programming acumen includes: <br />
+              🌱 My current set of toolbox: <br />
+              React.js, Node.js, Express.js, MongoDB, npm, MySQL, HTML5 & CSS3,
+              Docker, Babel, Git, Github, postman, Visual Studio Code <br />
+              🌱 My future plans in learning: <br />
+              React Native, GatsbyJS, GraphQL, AWS Lambda, AWS Amplify, Google
+              Cloud Platform, Kubernetes, Webpack <br />
+              🌱 I have also worked using the following set of toolbox-
+              <br /> Php, Code Ignitor, Laravel, Wordpress, Woocoommerce,
+              jquery, XAMPP, CPanel, Sublime Text Edidor
             </p>
           </div>
         </div>
