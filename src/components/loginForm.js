@@ -21,7 +21,7 @@ class LoginForm extends Component {
   render() {
     const { account } = this.state;
     return (
-      <div className='container' style={{ paddingTop: "143px" }}>
+      <div className='container login-wrapper'>
         <h1>Login</h1>
         <form onSubmit={this.handleSubmit}>
           <Input
