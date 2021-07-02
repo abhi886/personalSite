@@ -1,6 +1,6 @@
 import React from "react";
 import rollingNexus from "../images/rollingNexus.png";
-import rollingPlans from "../images/rollinglans.png";
+import rollingPlans from "../images/rollingplans.png";
 
 // FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
