@@ -60,7 +60,7 @@ const Blog = () => {
             </div>
           </div>
           <div className='blog-btn-viewMore'>
-            <Link to='/q' className='btn-blog '>
+            <Link to='/' className='btn-blog '>
               {" "}
               View All{" "}
               <FontAwesomeIcon className='icon' icon={faArrowRight} size='sm' />
