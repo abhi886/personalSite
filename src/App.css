@@ -626,7 +626,7 @@ textarea.form-control {
   position: relative;
   background-color: White;
   /* padding: 9rem 12rem; */
-  width: 1120px;
+  /* width: 1120px; */
 }
 .blog {
   background-blend-mode: darken;
