@@ -215,7 +215,7 @@ nav ul li {
   text-align: center;
   padding-bottom: 2rem;
   background: var(--primaty-light-grey);
-  height: 100vh;
+  /* height: 100vh; */
 }
 .services h1 {
   color: var(--primary-dark);
@@ -270,7 +270,7 @@ nav ul li {
   position: relative;
   padding: 3.125rem 0;
   overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .experience h1 {
