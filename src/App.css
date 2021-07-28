@@ -223,6 +223,12 @@ nav ul li {
   background: var(--primaty-light-grey);
   /* height: 100vh; */
 }
+
+@media (min-width: 768px) {
+  .services {
+    height: 100vh;
+  }
+}
 .services h1 {
   color: var(--primary-dark);
   text-transform: uppercase;
