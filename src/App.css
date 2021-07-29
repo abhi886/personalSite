@@ -262,6 +262,7 @@ nav ul li {
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 .services .box:hover {
   background: var(--primary-orange);
