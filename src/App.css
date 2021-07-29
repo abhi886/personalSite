@@ -453,6 +453,29 @@ nav ul li {
     width: 80%;
   }
 }
+.portfolio-tools-cont ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.portfolio-tools li {
+  background-color: #dfdfdf;
+  border-radius: 2px;
+  color: #201e1e;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.portfolio-tools {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  font-weight: 500;
+  justify-content: flex-start;
+}
 
 /* Testimonials */
 .testimonials {

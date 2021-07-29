@@ -76,7 +76,7 @@ const Portfolio = () => {
           <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
           <div className='image-box-wrapper row justify-content-center'>
             <div
-              className='portfolio-image-box'
+              className='col-sm-3 portfolio-image-box'
               onClick={openPopupboxRollingNexus}
             >
               <img
@@ -86,11 +86,19 @@ const Portfolio = () => {
               />
               <div className='overflow'></div>
               <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+              <div className='portfolio-tools-cont'>
+                <ul class='portfolio-tools'>
+                  <li>php</li>
+                  <li>CSS (Bootstrap)</li>
+                  <li>jQuery</li>
+                  <li>mySql</li>
+                </ul>
+              </div>
             </div>
 
             {/* - */}
             <div
-              className='portfolio-image-box'
+              className='col-sm-3 portfolio-image-box'
               onClick={openPopupboxRollingPlans}
             >
               <img
@@ -100,6 +108,14 @@ const Portfolio = () => {
               />
               <div className='overflow'></div>
               <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+              <div className='portfolio-tools-cont'>
+                <ul class='portfolio-tools'>
+                  <li>php</li>
+                  <li>CSS (Bootstrap)</li>
+                  <li>jQuery</li>
+                  <li>mySql</li>
+                </ul>
+              </div>
             </div>
             {/* - */}
             {/* <div className='portfolio-image-box'>
