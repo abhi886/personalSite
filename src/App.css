@@ -215,6 +215,11 @@ nav ul li {
     width: 10rem;
   }
 }
+@media (max-width: 768px) {
+  .profile-img {
+    width: 18rem;
+  }
+}
 
 /* Services */
 .services {
