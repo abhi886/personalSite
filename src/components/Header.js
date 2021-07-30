@@ -24,10 +24,11 @@ const Header = () => {
           backSpeed={40}
           loop
         />
-        <Link to='#' className='btn-main-offer'>
+        <Link to='/contacts' className='btn-main-offer'>
           {" "}
           CONTACT ME !
         </Link>
+
         <div className='social'>
           <ul className=''>
             <li>
