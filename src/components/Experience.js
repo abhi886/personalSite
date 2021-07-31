@@ -37,7 +37,7 @@ const Experience = () => {
           <div className='timeline-content'>
             <h3>2017-2018</h3>
             <p>
-              <b>Full Stack Web Developer</b>
+              <b>Full Stack Web Developer | Information Technology Officer</b>
               <br />
               Rolling Plans Pvt. Ltd. Kathmandu, Nepal | jan 2017 – Nov 2018
               (Full-Time)
