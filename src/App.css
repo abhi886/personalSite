@@ -90,30 +90,17 @@ nav a.nav-link {
   text-transform: uppercase;
 }
 
-/* .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.075rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
-} */
-
-/* .navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 import !important;
-  height: 6rem !important;
-} */
-
 @media (max-width: 768px) {
   .navbar-brand {
     /* font-size: 5rem !important; */
   }
 }
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
+.navbar-nav > a.active,
+.navbar-nav > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
