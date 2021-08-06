@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+import Image from "react-bootstrap/Image";
+import logo from "../images/Abhishekh.png";
 // import Nav from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container"; // import { NavLink, Link } from "react-router-dom";
@@ -13,7 +15,7 @@ const Navigation = () => {
     <Navbar bg='dark' expand='lg'>
       <Container>
         <Navbar.Brand href='#home'>
-          <Image src='holder.js/171x180' rounded />
+          <Image src={logo} fluid />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'></Navbar.Collapse>
