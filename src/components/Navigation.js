@@ -15,7 +15,7 @@ const Navigation = () => {
     <Navbar bg='dark' expand='lg'>
       <Container>
         <Navbar.Brand href='#home'>
-          <Image src={logo} fluid />
+          <Image src={logo} className='logo' />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'></Navbar.Collapse>
