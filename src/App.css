@@ -79,22 +79,29 @@ nav a.nav-link {
   cursor: pointer;
 }
 
-nav ul li {
+/* nav ul li {
   text-transform: uppercase;
-}
-
-.navbar-nav > li > a {
+} */
+.navbar-nav > a {
   margin-right: 0.75rem;
   margin-left: 0.075rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
+  text-transform: uppercase;
 }
 
-.navbar-brand {
+/* .navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.075rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+} */
+
+/* .navbar-brand {
   max-width: 17.25rem;
   padding: 0 import !important;
   height: 6rem !important;
-}
+} */
 
 @media (max-width: 768px) {
   .navbar-brand {
